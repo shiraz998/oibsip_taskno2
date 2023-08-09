@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+    background-image: url("../image/hero-bg.png");
+	width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+header .navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+header .navbar .logo img{
+    width: 50px;
+    height: 40px;
+}
+header .navbar .nav-links ul {
+    list-style: none;
+}
+header .navbar .nav-links ul li{
+    display: inline-flex;
+    padding: 10px 30px 0px 30px;
+}
+header .navbar .nav-links ul li a{
+    color: black;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+header .navbar .nav-links ul li a:hover{
+    border-bottom: 2px solid coral;
+}
+header .header-banner {
+    display: flex;
+    padding-top: 80px;
+    flex-direction: row;
+    align-items: center;
+}
+header .header-banner .banner-one{
+    width: 65%;
+    padding: 0px 10px 0px 10px;
+}
+header .header-banner .banner-two{
+    width: 35%;
+    height: auto;
+}
+header .header-banner .banner-one .text-one h2{
+    font-size: 40px;
+    color: coral;
+    font-family: 'Poppins', sans-serif;
+}
+header .header-banner .banner-one .text-one h3{
+    font-size: 35px;
+    color: purple;
+    font-family: 'Poppins', sans-serif;
+}
+header .header-banner .banner-one .text-one h4{
+    font-size: 35px;
+    color:purple;
+    font-family: 'Poppins', sans-serif;
+}
+header .header-banner .banner-one .text-one .top-text:hover{
+    color: tomato;
+}
+header .header-banner .banner-one .social-icons ul{
+    list-style: none;
+    display: flex;
+    padding: 30px 0px 30px 0px;
+}
+header .header-banner .banner-one .social-icons ul li{
+    padding: 20px 30px 0px 0px;
+} 
+header .header-banner .banner-one .social-icons ul li a{
+    color:tomato;
+    font-size: 18px;
+}
+header .header-banner .banner-one .social-icons ul li a:hover{
+    color:tomato;
+}
+header .header-banner .banner-one .social-icons .btn-contact {
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    background-color: tomato;
+    border-radius: 20px;
+    padding: 8px 30px 8px 30px;
+}
+header .header-banner .banner-one .social-icons .btn-contact:hover{
+    background-color: yellowgreen;
+    color: black;
+}
+header .header-banner .banner-two .text-two img {
+    width: 100%;
+    height: 400px;
+    object-fit: fill;
+}
+#section-one {
+    width: 100%;
+    height: auto;
+    padding: 100px 0px 100px 0px;
+}
+.section-one-main .about-section{
+    display: flex;
+    align-content: center;
+}
+.section-one-main .about-section .about-img{
+    width: 50%;
+    height: auto;
+    text-align: center;
+}
+.section-one-main .about-section .about-img img{
+    width: 300px;
+    height: auto;
+    object-fit: fill;
+}
+.section-one-main .about-section .about-text{
+    width: 50%;
+    height: auto;
+}
+.section-one-main .about-section .about-text h3{
+    font-size: 35px;
+    color: black;
+    letter-spacing: 1px;
+    padding: 50px 0px 10px 0px;
+}
+.section-one-main .about-section .about-text p{
+    font-size: 15px;
+    color: black;
+    letter-spacing: 2px;
+    padding: 0px 150px 30px 0px;
+}
+.section-one-main .about-section .about-text a{
+    font-size: 15px;
+    color: white;
+    letter-spacing: 2px;
+    background-color: tomato;
+    padding: 5px 25px 5px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+#section-two {
+    padding: 100px 0px 100px 0px;
+}
+section .section-two-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#section-two .section-main h1{
+    font-size: 40px;
+    color: black;
+    letter-spacing: 2px;
+    text-align: center;
+}
+#section-two .section-two-main .sqaure-one {
+    width: 33%;
+    height: 200px;
+    margin: 100px 40px 50px 40px;
+    text-align: center;
+    padding-top: 100px;
+    background-color:tomato;
+    border-radius: 30px;
+}
+#section-two .section-two-main .sqaure-one:hover{
+    background-color: skyblue;
+}
+#section-two .section-two-main .sqaure-one a{
+    font-size: 25px;
+    color: black;
+}
+#section-two .section-two-main .sqaure-one h4{
+    font-size: 20px;
+    color: black;
+    letter-spacing: 1px;
+}
+.section-three-main .project-section h2{
+    font-size: 35px;
+    color: black;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.section-three-main .row{
+    display: flex;
+    padding: 40px 0px 40px 0px;
+}
+.section-three-main .row .col-one{
+    width: 33%;
+    height: auto;
+    border: 1px solid deeppink;
+    text-align: center;
+    margin: 0px 40px 0px 40px;
+    border-radius: 20px;
+}
+.section-three-main .row .col-two{
+    width: 33%;
+    height: auto;
+    border: 1px solid deeppink;
+    text-align: center;
+    border-radius: 20px;
+    margin: 0px 40px 0px 40px;
+}
+.section-three-main .row .col-three{
+    width: 33%;
+    height: auto;
+    border: 1px solid deeppink;
+    text-align: center;
+    border-radius: 20px;
+    margin: 0px 40px 0px 40px;
+}
+.section-three-main .row .col-one h2 {
+    font-size: 20px;
+    color: black;
+    letter-spacing: 1px;
+    padding: 20px 0px 20px 0px;
+}
+.section-three-main .row .col-two h2 {
+    font-size: 20px;
+    color: black;
+    letter-spacing: 1px;
+    padding: 20px 0px 20px 0px;
+}
+.section-three-main .row .col-three h2 {
+    font-size: 20px;
+    color: black;
+    letter-spacing: 1px;
+    padding: 20px 0px 20px 0px;
+}
+.section-three-main .row .col-one img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+.section-three-main .row .col-two img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+.section-three-main .row .col-three img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+.section-four-main {
+    text-align: center;
+    padding: 100px 0px 100px 0px;
+}
+.section-four-main .contact-form h2 {
+    font-size: 35px;
+    color: black;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.section-four-main .contact-data {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px 0px 0px 0px;
+}
+.section-four-main .contact-data label{
+    font-size: 18px;
+    color: black;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.section-four-main .contact-data input{
+    padding: 8px 20px 8px 20px;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+.section-four-main .contact-one .one-input{
+    margin: 0px 30px 30px 30px;
+}
+.section-four-main .contact-one .two-input{
+    margin: 0px 30px 30px 30px;
+}
+.section-four-main .contact-two .three-input{
+    margin: 0px 30px 30px 70px;
+}
+.section-four-main .contact-two .four-input{
+    margin: 0px 0px 30px 60px;
+}
+.section-four-main #btn {
+    background-color: coral;
+    font-size: 18px;
+    border-radius: 20px;
+    padding: 8px 40px 8px 40px;
+    border: none;
+    margin-top: 30px;
+}
+footer {
+    background-color: #47AD6D;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
